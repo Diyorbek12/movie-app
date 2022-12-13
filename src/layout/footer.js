@@ -1,7 +1,7 @@
 export default function Footer () {
     return (
         <div>
-             <footer className="page-footer">
+             <footer className="page-footer #00838f cyan darken-3">
           <div className="footer-copyright">
             <div className="container">
             ©  {new Date().getFullYear()} Copyright Text

@@ -5,11 +5,16 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #b2dfdb;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.main {
+  width: 90%;
 }
 
 .movies {
@@ -21,4 +26,8 @@ code {
 
 label:not(:last-child) {
   margin-right: 0.5rem;
+}
+
+span {
+  color: black;
 }

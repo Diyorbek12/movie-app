@@ -5,7 +5,7 @@ export default class Header extends React.Component {
     return (
         <div>
    <nav>
-    <div className="nav-wrapper">
+    <div className="nav-wrapper #00838f cyan darken-3">
       <a href="#" className="brand-logo">React</a>
       <ul id="nav-mobile" className="right hide-on-med-and-down">
         <li><a href="#">Home</a></li>

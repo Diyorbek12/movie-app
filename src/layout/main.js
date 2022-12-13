@@ -24,7 +24,7 @@ export default function Main () {
     }, [])
      
     return (
-        <div className='container content'>
+        <div className='container content main'>
             <Search searchMovie={searchMovie} />
             { loading ? (<Loader />) : (<Movies movies={movie} />) }
         </div>
