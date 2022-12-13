@@ -9,7 +9,7 @@ export default function Main () {
 
     const searchMovie = (str, type = 'all') => {
         setLoading(true)
-        fetch(`http://www.omdbapi.com/?i=tt3896198&apikey=7d2d7ac6&s=${str}${type !== 'all' ? `&type=${type}` : ''}`)
+        fetch(`https://www.omdbapi.com/?i=tt3896198&apikey=7d2d7ac6&s=${str}${type !== 'all' ? `&type=${type}` : ''}`)
         .then((response) => response.json())
         .then((data) => {
             setLoading(false)
@@ -18,7 +18,7 @@ export default function Main () {
     }
 
     useEffect(() => {
-        fetch('http://www.omdbapi.com/?i=tt3896198&apikey=7d2d7ac6&s=demo')
+        fetch('https://www.omdbapi.com/?i=tt3896198&apikey=7d2d7ac6&s=demo')
         .then((response) => response.json())
         .then((data) => {setMovie(data.Search); setLoading(false)})
     }, [])
